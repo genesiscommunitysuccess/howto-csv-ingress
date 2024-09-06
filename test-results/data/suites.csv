@@ -1,0 +1,26 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1082","test transformer()","","Fri Dec 13 03:45:40 UTC 2024","passed","Fri Dec 13 03:45:41 UTC 2024","","howto.csv.ingress.copp.clark.transform.CoppClarkHolidayTransformerTest","howto.csv.ingress.copp.clark.transform.CoppClarkHolidayTransformerTest","test transformer"
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","7214","Uploading successful CSV from Docker","","Fri Dec 13 03:46:57 UTC 2024","passed","Fri Dec 13 03:47:04 UTC 2024","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","302","Uploading an invalid file format/malformed form Docker","","Fri Dec 13 03:45:53 UTC 2024","passed","Fri Dec 13 03:45:53 UTC 2024","","CSV File Upload","Uploading an invalid file format/malformed form Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","17465","Uploading successful CSV from Docker","","Fri Dec 13 03:46:08 UTC 2024","passed","Fri Dec 13 03:46:26 UTC 2024","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","14673","Uploading successful CSV from Docker","","Fri Dec 13 03:46:34 UTC 2024","passed","Fri Dec 13 03:46:49 UTC 2024","","CSV File Upload","Uploading successful CSV from Docker",""
+"","1","test simple csv ingress pipeline(String, int, Set, Set)","","Fri Dec 13 03:45:34 UTC 2024","skipped","Fri Dec 13 03:45:34 UTC 2024","","global.genesis.SimpleCsvIngressIntegrationTest","global.genesis.SimpleCsvIngressIntegrationTest","test simple csv ingress pipeline"
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","5586","Uploading successful CSV from Docker","","Fri Dec 13 03:46:03 UTC 2024","passed","Fri Dec 13 03:46:08 UTC 2024","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","8236","Uploading successful CSV from Docker","","Fri Dec 13 03:46:49 UTC 2024","passed","Fri Dec 13 03:46:57 UTC 2024","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","93","Uploading an invalid file format/malformed form Docker","","Fri Dec 13 03:45:53 UTC 2024","passed","Fri Dec 13 03:45:53 UTC 2024","","CSV File Upload","Uploading an invalid file format/malformed form Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","9125","Uploading successful CSV from Docker","","Fri Dec 13 03:45:53 UTC 2024","passed","Fri Dec 13 03:46:03 UTC 2024","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","345","Uploading an invalid file format/malformed form Docker","","Fri Dec 13 03:45:53 UTC 2024","passed","Fri Dec 13 03:45:53 UTC 2024","","CSV File Upload","Uploading an invalid file format/malformed form Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","1088","Uploading an invalid file format/malformed form Docker","","Fri Dec 13 03:45:52 UTC 2024","passed","Fri Dec 13 03:45:53 UTC 2024","","CSV File Upload","Uploading an invalid file format/malformed form Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","8429","Uploading successful CSV from Docker","","Fri Dec 13 03:46:26 UTC 2024","passed","Fri Dec 13 03:46:34 UTC 2024","","CSV File Upload","Uploading successful CSV from Docker",""
+"","5513","test transformer()","","Fri Dec 13 03:45:34 UTC 2024","passed","Fri Dec 13 03:45:40 UTC 2024","","howto.csv.ingress.copp.clark.transform.CoppClarkHolidayAndExchangeTransformerTest","howto.csv.ingress.copp.clark.transform.CoppClarkHolidayAndExchangeTransformerTest","test transformer"
