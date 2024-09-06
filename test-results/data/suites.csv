@@ -1,0 +1,26 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","5505","Uploading successful CSV from Docker","","Fri May 23 07:44:45 UTC 2025","passed","Fri May 23 07:44:51 UTC 2025","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","8414","Uploading successful CSV from Docker","","Fri May 23 07:45:02 UTC 2025","passed","Fri May 23 07:45:11 UTC 2025","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","11819","Uploading successful CSV from Docker","","Fri May 23 07:44:51 UTC 2025","passed","Fri May 23 07:45:02 UTC 2025","","CSV File Upload","Uploading successful CSV from Docker",""
+"","1079","test transformer()","","Fri May 23 07:44:18 UTC 2025","passed","Fri May 23 07:44:19 UTC 2025","","howto.csv.ingress.copp.clark.transform.CoppClarkHolidayTransformerTest","howto.csv.ingress.copp.clark.transform.CoppClarkHolidayTransformerTest","test transformer"
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","82","Uploading an invalid file format/malformed form Docker","","Fri May 23 07:44:35 UTC 2025","passed","Fri May 23 07:44:35 UTC 2025","","CSV File Upload","Uploading an invalid file format/malformed form Docker",""
+"","6200","test transformer()","","Fri May 23 07:44:11 UTC 2025","passed","Fri May 23 07:44:18 UTC 2025","","howto.csv.ingress.copp.clark.transform.CoppClarkHolidayAndExchangeTransformerTest","howto.csv.ingress.copp.clark.transform.CoppClarkHolidayAndExchangeTransformerTest","test transformer"
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","9262","Uploading successful CSV from Docker","","Fri May 23 07:45:11 UTC 2025","passed","Fri May 23 07:45:20 UTC 2025","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","296","Uploading an invalid file format/malformed form Docker","","Fri May 23 07:44:36 UTC 2025","passed","Fri May 23 07:44:36 UTC 2025","","CSV File Upload","Uploading an invalid file format/malformed form Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","8968","Uploading successful CSV from Docker","","Fri May 23 07:44:36 UTC 2025","passed","Fri May 23 07:44:45 UTC 2025","","CSV File Upload","Uploading successful CSV from Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","323","Uploading an invalid file format/malformed form Docker","","Fri May 23 07:44:35 UTC 2025","passed","Fri May 23 07:44:36 UTC 2025","","CSV File Upload","Uploading an invalid file format/malformed form Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","1118","Uploading an invalid file format/malformed form Docker","","Fri May 23 07:44:34 UTC 2025","passed","Fri May 23 07:44:35 UTC 2025","","CSV File Upload","Uploading an invalid file format/malformed form Docker",""
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","8060","Uploading successful CSV from Docker","","Fri May 23 07:45:27 UTC 2025","passed","Fri May 23 07:45:35 UTC 2025","","CSV File Upload","Uploading successful CSV from Docker",""
+"","0","test simple csv ingress pipeline(String, int, Set, Set)","","Fri May 23 07:44:11 UTC 2025","skipped","Fri May 23 07:44:11 UTC 2025","","global.genesis.SimpleCsvIngressIntegrationTest","global.genesis.SimpleCsvIngressIntegrationTest","test simple csv ingress pipeline"
+"  I want to upload a CSV file into the system,
+  So that I can use the data for analysis.","7032","Uploading successful CSV from Docker","","Fri May 23 07:45:20 UTC 2025","passed","Fri May 23 07:45:27 UTC 2025","","CSV File Upload","Uploading successful CSV from Docker",""
