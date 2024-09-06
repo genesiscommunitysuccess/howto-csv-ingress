@@ -1,0 +1,135 @@
+{
+  "MESSAGE_TYPE": "REP_EXCHANGE_HOLIDAY",
+  "SOURCE_REF": "2802031c-4801-45d3-9a3b-af8faa02bfd4",
+  "PARAMETRIC_TYPE": "global.genesis.gen.dao.ExchangeHoliday",
+  "REPLY": [
+    {
+      "HOLIDAY_DATE": 1704067200000,
+      "HOLIDAY_NAME": "New Year's Day",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935454,
+      "TIMESTAMP": 7240500667024935454
+    },
+    {
+      "HOLIDAY_DATE": 1711670400000,
+      "HOLIDAY_NAME": "Good Friday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935455,
+      "TIMESTAMP": 7240500667024935455
+    },
+    {
+      "HOLIDAY_DATE": 1711929600000,
+      "HOLIDAY_NAME": "Easter Monday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935456,
+      "TIMESTAMP": 7240500667024935456
+    },
+    {
+      "HOLIDAY_DATE": 1714953600000,
+      "HOLIDAY_NAME": "Early May Bank Holiday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935457,
+      "TIMESTAMP": 7240500667024935457
+    },
+    {
+      "HOLIDAY_DATE": 1716768000000,
+      "HOLIDAY_NAME": "Late May Bank Holiday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935458,
+      "TIMESTAMP": 7240500667024935458
+    },
+    {
+      "HOLIDAY_DATE": 1724630400000,
+      "HOLIDAY_NAME": "Summer Bank Holiday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558649,
+      "TIMESTAMP": 7240500765385558649
+    },
+    {
+      "HOLIDAY_DATE": 1735084800000,
+      "HOLIDAY_NAME": "Christmas",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558650,
+      "TIMESTAMP": 7240500765385558650
+    },
+    {
+      "HOLIDAY_DATE": 1735171200000,
+      "HOLIDAY_NAME": "Boxing Day",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558651,
+      "TIMESTAMP": 7240500765385558651
+    },
+    {
+      "HOLIDAY_DATE": 1735689600000,
+      "HOLIDAY_NAME": "New Year's Day",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558652,
+      "TIMESTAMP": 7240500765385558652
+    },
+    {
+      "HOLIDAY_DATE": 1744934400000,
+      "HOLIDAY_NAME": "Good Friday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558653,
+      "TIMESTAMP": 7240500765385558653
+    },
+    {
+      "HOLIDAY_DATE": 1745193600000,
+      "HOLIDAY_NAME": "Easter Monday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558654,
+      "TIMESTAMP": 7240500765385558654
+    },
+    {
+      "HOLIDAY_DATE": 1746403200000,
+      "HOLIDAY_NAME": "Early May Bank Holiday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558655,
+      "TIMESTAMP": 7240500765385558655
+    },
+    {
+      "HOLIDAY_DATE": 1748217600000,
+      "HOLIDAY_NAME": "Late May Bank Holiday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558656,
+      "TIMESTAMP": 7240500765385558656
+    },
+    {
+      "HOLIDAY_DATE": 1756080000000,
+      "HOLIDAY_NAME": "Summer Bank Holiday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558657,
+      "TIMESTAMP": 7240500765385558657
+    },
+    {
+      "HOLIDAY_DATE": 1766620800000,
+      "HOLIDAY_NAME": "Christmas",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558658,
+      "TIMESTAMP": 7240500765385558658
+    },
+    {
+      "HOLIDAY_DATE": 1766707200000,
+      "HOLIDAY_NAME": "Boxing Day",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500765385558659,
+      "TIMESTAMP": 7240500765385558659
+    }
+  ]
+}
