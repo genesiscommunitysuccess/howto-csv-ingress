@@ -1,0 +1,47 @@
+{
+  "MESSAGE_TYPE": "REP_EXCHANGE_HOLIDAY",
+  "SOURCE_REF": "3827e08f-7051-413c-a5b7-547152147d04",
+  "PARAMETRIC_TYPE": "global.genesis.gen.dao.ExchangeHoliday",
+  "REPLY": [
+    {
+      "HOLIDAY_DATE": 1704067200000,
+      "HOLIDAY_NAME": "New Year's Day",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935454,
+      "TIMESTAMP": 7240500667024935454
+    },
+    {
+      "HOLIDAY_DATE": 1711670400000,
+      "HOLIDAY_NAME": "Good Friday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935455,
+      "TIMESTAMP": 7240500667024935455
+    },
+    {
+      "HOLIDAY_DATE": 1711929600000,
+      "HOLIDAY_NAME": "Easter Monday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935456,
+      "TIMESTAMP": 7240500667024935456
+    },
+    {
+      "HOLIDAY_DATE": 1714953600000,
+      "HOLIDAY_NAME": "Early May Bank Holiday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935457,
+      "TIMESTAMP": 7240500667024935457
+    },
+    {
+      "HOLIDAY_DATE": 1716768000000,
+      "HOLIDAY_NAME": "Late May Bank Holiday",
+      "HOLIDAY_TYPE": "Settlement",
+      "ISO_MIC": "XLON",
+      "RECORD_ID": 7240500667024935458,
+      "TIMESTAMP": 7240500667024935458
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "setApiHost": true,
+  "apiHost": "ws://localhost:9064",
+  "enableSSO": false,
+  "description": "A sample project showing how to read and parse a CSV file, then to transform and load data into the application database using Genesis Data Pipelines. Copp Clark holiday data is being used as a sample",
+  "groupId": "global.genesis",
+  "applicationVersion": "1.0.0-SNAPSHOT",
+  "enableDeployPlugin": false,
+  "csv": [
+    {
+      "name": "EXCHANGE_HOLIDAY",
+      "fields": [
+        "ISO_MIC",
+        "HOLIDAY_DATE",
+        "HOLIDAY_TYPE",
+        "HOLIDAY_NAME"
+      ]
+    },
+    {
+      "name": "EXCHANGE",
+      "fields": [
+        "ISO_MIC",
+        "NAME",
+        "ISO_COUNTRY"
+      ]
+    },
+    {
+      "name": "RIGHT",
+      "fields": [
+        "CODE",
+        "DESCRIPTION"
+      ],
+      "data": [
+        [
+          "ExchangeUpdate",
+          "Exchange update"
+        ],
+        [
+          "ExchangeView",
+          "Exchange view"
+        ]
+      ]
+    },
+    {
+      "name": "PROFILE",
+      "fields": [
+        "NAME",
+        "DESCRIPTION",
+        "STATUS"
+      ],
+      "data": [
+        [
+          "howto-csv-ingress_ADMIN",
+          "Howto csv ingress admin",
+          "ENABLED"
+        ]
+      ]
+    },
+    {
+      "name": "PROFILE_RIGHT",
+      "fields": [
+        "PROFILE_NAME",
+        "RIGHT_CODE"
+      ],
+      "data": [
+        [
+          "howto-csv-ingress_ADMIN",
+          "ExchangeUpdate"
+        ],
+        [
+          "howto-csv-ingress_ADMIN",
+          "ExchangeView"
+        ]
+      ]
+    },
+    {
+      "name": "PROFILE_USER",
+      "data": [
+        [
+          "howto-csv-ingress_ADMIN",
+          "admin"
+        ]
+      ],
+      "mode": "append"
+    }
+  ],
+  "framework": "webcomponents",
+  "ui": {},
+  "routes": [
+    {
+      "id": "89a12278-6b1f-4150-9812-e0b388e9552a",
+      "name": "Exchange Data",
+      "layoutType": "horizontal-layout",
+      "permissions": null,
+      "tiles": [
+        {
+          "title": "Exchange Holidays",
+          "type": "grid-pro",
+          "config": {
+            "resourceName": "EXCHANGE_HOLIDAY",
+            "permissions": {
+              "viewRight": "ExchangeView"
+            },
+            "reqrep": true,
+            "gridOptions": "\n  {\n    columnDefs: [\n     {\n          field: \"EXCHANGE_HOLIDAY_ID\",\n     },\n     {\n          field: \"ISO_MIC\",\n          hide: true,\n     },\n     {\n          field: \"HOLIDAY_DATE\",\n     },\n     {\n          field: \"HOLIDAY_TYPE\",\n     },\n     {\n          field: \"HOLIDAY_NAME\",\n     }\n],\n  }",
+            "index": 0,
+            "useOnlyTemplateCols": false
+          },
+          "componentName": "Exchange Data-ExchangeHolidays-grid",
+          "componentType": "grid"
+        }
+      ],
+      "layoutKey": "Exchange Data_1722864326611",
+      "FDC3EventHandlersEnabled": false
+    }
+  ],
+  "appName": "howto-csv-ingress",
+  "pkgName": "howtocsvingress",
+  "directory": "howto-csv-ingress",
+  "appSeed": {
+    "type": "local",
+    "name": "blank-app-seed",
+    "description": "Genesis Blank App Seed Configuration",
+    "version": "3.28.3",
+    "date": "2024-08-05T13:25:26.599Z"
+  },
+  "rootElement": "howtocsvingress-root",
+  "localGenId": "HOWTO_CSV-INGRESS",
+  "applicationVersionWeb": "1.0.0",
+  "versions": {
+    "UI": "14.199.1",
+    "GSF": "8.2.0",
+    "Auth": "8.2.0"
+  },
+  "FDC3": {
+    "includeDependencies": false,
+    "channels": []
+  },
+  "additions": [
+    {
+      "screenGatewayEnabled": true,
+      "emailGatewayEnabled": true,
+      "teamsGatewayEnabled": true,
+      "sendGridEnabled": false,
+      "smtpHost": "localhost",
+      "smtpPort": 587,
+      "smtpUser": "*",
+      "smtpPw": "*",
+      "smtpProtocol": "TransportStrategy.SMTP",
+      "systemDefaultUserName": "*",
+      "systemDefaultEmail": "*",
+      "notificationEntities": [
+        "EXCHANGE_HOLIDAY",
+        "EXCHANGE",
+        "EXCHANGE_HOLIDAY_VIEW"
+      ],
+      "setApiHost": true,
+      "apiHost": "ws://localhost:9064",
+      "enableSSO": false,
+      "description": "A sample project showing how to read and parse a CSV file, then to transform and load data into the application database using Genesis Data Pipelines. Copp Clark holiday data is being used as a sample",
+      "groupId": "global.genesis",
+      "applicationVersion": "1.0.0-SNAPSHOT",
+      "enableDeployPlugin": false,
+      "csv": [
+        {
+          "name": "EXCHANGE_HOLIDAY",
+          "fields": [
+            "ISO_MIC",
+            "HOLIDAY_DATE",
+            "HOLIDAY_TYPE",
+            "HOLIDAY_NAME"
+          ]
+        },
+        {
+          "name": "EXCHANGE",
+          "fields": [
+            "ISO_MIC",
+            "NAME",
+            "ISO_COUNTRY"
+          ]
+        },
+        {
+          "name": "RIGHT",
+          "fields": [
+            "CODE",
+            "DESCRIPTION"
+          ],
+          "data": [
+            [
+              "ExchangeUpdate",
+              "Exchange update"
+            ],
+            [
+              "ExchangeView",
+              "Exchange view"
+            ]
+          ]
+        },
+        {
+          "name": "PROFILE",
+          "fields": [
+            "NAME",
+            "DESCRIPTION",
+            "STATUS"
+          ],
+          "data": [
+            [
+              "howto-csv-ingress_ADMIN",
+              "Howto csv ingress admin",
+              "ENABLED"
+            ]
+          ]
+        },
+        {
+          "name": "PROFILE_RIGHT",
+          "fields": [
+            "PROFILE_NAME",
+            "RIGHT_CODE"
+          ],
+          "data": [
+            [
+              "howto-csv-ingress_ADMIN",
+              "ExchangeUpdate"
+            ],
+            [
+              "howto-csv-ingress_ADMIN",
+              "ExchangeView"
+            ]
+          ]
+        },
+        {
+          "name": "PROFILE_USER",
+          "data": [
+            [
+              "howto-csv-ingress_ADMIN",
+              "admin"
+            ]
+          ],
+          "mode": "append"
+        }
+      ],
+      "framework": "webcomponents",
+      "ui": {},
+      "routes": [
+        {
+          "id": "89a12278-6b1f-4150-9812-e0b388e9552a",
+          "name": "Exchange Data",
+          "layoutType": "horizontal-layout",
+          "permissions": null,
+          "tiles": [
+            {
+              "title": "Exchange Holidays",
+              "type": "grid-pro",
+              "config": {
+                "resourceName": "EXCHANGE_HOLIDAY",
+                "permissions": {
+                  "viewRight": "ExchangeView"
+                },
+                "reqrep": true,
+                "gridOptions": "\n  {\n    columnDefs: [\n     {\n          field: \"EXCHANGE_HOLIDAY_ID\",\n     },\n     {\n          field: \"ISO_MIC\",\n          hide: true,\n     },\n     {\n          field: \"HOLIDAY_DATE\",\n     },\n     {\n          field: \"HOLIDAY_TYPE\",\n     },\n     {\n          field: \"HOLIDAY_NAME\",\n     }\n],\n  }",
+                "index": 0,
+                "useOnlyTemplateCols": false
+              },
+              "componentName": "Exchange Data-ExchangeHolidays-grid",
+              "componentType": "grid"
+            }
+          ],
+          "layoutKey": "Exchange Data_1722864326611",
+          "FDC3EventHandlersEnabled": false
+        }
+      ],
+      "appName": "howto-csv-ingress",
+      "pkgName": "howto-csv-ingress",
+      "directory": "/tmp/tmp-18-yx8dWvFLzt0l/howto-csv-ingress",
+      "appSeed": {
+        "type": "local",
+        "name": "pbc-notify-seed",
+        "date": "2024-08-05T13:25:27.169Z"
+      },
+      "rootElement": "howtocsvingress-root",
+      "localGenId": "HOWTO_CSV-INGRESS",
+      "applicationVersionWeb": "1.0.0",
+      "versions": {
+        "prerequisites": {
+          "foundationUI": "14.*",
+          "gsf": "8.*"
+        },
+        "dependencies": {
+          "pbcNotify": "1.0.39",
+          "serverDepId": "8.2.0",
+          "fileServerDepId": "8.2.0"
+        }
+      },
+      "FDC3": {
+        "includeDependencies": false,
+        "channels": []
+      },
+      "date": "Mon Aug 05 2024 13:25:27 GMT+0000 (Coordinated Universal Time)",
+      "utils": {
+        "changeCase": {}
+      },
+      "notificationEntitiesKotlin": "listOf(\"EXCHANGE_HOLIDAY\", \"EXCHANGE\", \"EXCHANGE_HOLIDAY_VIEW\")"
+    },
+    {
+      "setApiHost": true,
+      "apiHost": "ws://localhost:9064",
+      "enableSSO": false,
+      "description": "A sample project showing how to read and parse a CSV file, then to transform and load data into the application database using Genesis Data Pipelines. Copp Clark holiday data is being used as a sample",
+      "groupId": "global.genesis",
+      "applicationVersion": "1.0.0-SNAPSHOT",
+      "enableDeployPlugin": false,
+      "csv": [
+        {
+          "name": "EXCHANGE_HOLIDAY",
+          "fields": [
+            "ISO_MIC",
+            "HOLIDAY_DATE",
+            "HOLIDAY_TYPE",
+            "HOLIDAY_NAME"
+          ]
+        },
+        {
+          "name": "EXCHANGE",
+          "fields": [
+            "ISO_MIC",
+            "NAME",
+            "ISO_COUNTRY"
+          ]
+        },
+        {
+          "name": "RIGHT",
+          "fields": [
+            "CODE",
+            "DESCRIPTION"
+          ],
+          "data": [
+            [
+              "ExchangeUpdate",
+              "Exchange update"
+            ],
+            [
+              "ExchangeView",
+              "Exchange view"
+            ]
+          ]
+        },
+        {
+          "name": "PROFILE",
+          "fields": [
+            "NAME",
+            "DESCRIPTION",
+            "STATUS"
+          ],
+          "data": [
+            [
+              "howto-csv-ingress_ADMIN",
+              "Howto csv ingress admin",
+              "ENABLED"
+            ]
+          ]
+        },
+        {
+          "name": "PROFILE_RIGHT",
+          "fields": [
+            "PROFILE_NAME",
+            "RIGHT_CODE"
+          ],
+          "data": [
+            [
+              "howto-csv-ingress_ADMIN",
+              "ExchangeUpdate"
+            ],
+            [
+              "howto-csv-ingress_ADMIN",
+              "ExchangeView"
+            ]
+          ]
+        },
+        {
+          "name": "PROFILE_USER",
+          "data": [
+            [
+              "howto-csv-ingress_ADMIN",
+              "admin"
+            ]
+          ],
+          "mode": "append"
+        }
+      ],
+      "framework": "webcomponents",
+      "ui": {},
+      "routes": [
+        {
+          "id": "89a12278-6b1f-4150-9812-e0b388e9552a",
+          "name": "Exchange Data",
+          "layoutType": "horizontal-layout",
+          "permissions": null,
+          "tiles": [
+            {
+              "title": "Exchange Holidays",
+              "type": "grid-pro",
+              "config": {
+                "resourceName": "EXCHANGE_HOLIDAY",
+                "permissions": {
+                  "viewRight": "ExchangeView"
+                },
+                "reqrep": true,
+                "gridOptions": "\n  {\n    columnDefs: [\n     {\n          field: \"EXCHANGE_HOLIDAY_ID\",\n     },\n     {\n          field: \"ISO_MIC\",\n          hide: true,\n     },\n     {\n          field: \"HOLIDAY_DATE\",\n     },\n     {\n          field: \"HOLIDAY_TYPE\",\n     },\n     {\n          field: \"HOLIDAY_NAME\",\n     }\n],\n  }",
+                "index": 0,
+                "useOnlyTemplateCols": false
+              },
+              "componentName": "Exchange Data-ExchangeHolidays-grid",
+              "componentType": "grid"
+            }
+          ],
+          "layoutKey": "Exchange Data_1722864326611",
+          "FDC3EventHandlersEnabled": false
+        }
+      ],
+      "appName": "howto-csv-ingress",
+      "pkgName": "howto-csv-ingress",
+      "directory": "/tmp/tmp-18-1Ctrt25vIuTF/howto-csv-ingress",
+      "appSeed": {
+        "type": "local",
+        "name": "pbc-auth-seed",
+        "date": "2024-08-05T13:25:27.358Z"
+      },
+      "rootElement": "howtocsvingress-root",
+      "localGenId": "HOWTO_CSV-INGRESS",
+      "applicationVersionWeb": "1.0.0",
+      "versions": {
+        "prerequisites": {
+          "foundationUI": "14.*",
+          "gsf": "8.*"
+        },
+        "dependencies": {
+          "authClientVersion": "1.0.9",
+          "authServerVersion": "8.2.0"
+        }
+      },
+      "FDC3": {
+        "includeDependencies": false,
+        "channels": []
+      },
+      "additions": [
+        {
+          "screenGatewayEnabled": true,
+          "emailGatewayEnabled": true,
+          "teamsGatewayEnabled": true,
+          "sendGridEnabled": false,
+          "smtpHost": "localhost",
+          "smtpPort": 587,
+          "smtpUser": "*",
+          "smtpPw": "*",
+          "smtpProtocol": "TransportStrategy.SMTP",
+          "systemDefaultUserName": "*",
+          "systemDefaultEmail": "*",
+          "notificationEntities": [
+            "EXCHANGE_HOLIDAY",
+            "EXCHANGE",
+            "EXCHANGE_HOLIDAY_VIEW"
+          ],
+          "setApiHost": true,
+          "apiHost": "ws://localhost:9064",
+          "enableSSO": false,
+          "description": "A sample project showing how to read and parse a CSV file, then to transform and load data into the application database using Genesis Data Pipelines. Copp Clark holiday data is being used as a sample",
+          "groupId": "global.genesis",
+          "applicationVersion": "1.0.0-SNAPSHOT",
+          "enableDeployPlugin": false,
+          "csv": [
+            {
+              "name": "EXCHANGE_HOLIDAY",
+              "fields": [
+                "ISO_MIC",
+                "HOLIDAY_DATE",
+                "HOLIDAY_TYPE",
+                "HOLIDAY_NAME"
+              ]
+            },
+            {
+              "name": "EXCHANGE",
+              "fields": [
+                "ISO_MIC",
+                "NAME",
+                "ISO_COUNTRY"
+              ]
+            },
+            {
+              "name": "RIGHT",
+              "fields": [
+                "CODE",
+                "DESCRIPTION"
+              ],
+              "data": [
+                [
+                  "ExchangeUpdate",
+                  "Exchange update"
+                ],
+                [
+                  "ExchangeView",
+                  "Exchange view"
+                ]
+              ]
+            },
+            {
+              "name": "PROFILE",
+              "fields": [
+                "NAME",
+                "DESCRIPTION",
+                "STATUS"
+              ],
+              "data": [
+                [
+                  "howto-csv-ingress_ADMIN",
+                  "Howto csv ingress admin",
+                  "ENABLED"
+                ]
+              ]
+            },
+            {
+              "name": "PROFILE_RIGHT",
+              "fields": [
+                "PROFILE_NAME",
+                "RIGHT_CODE"
+              ],
+              "data": [
+                [
+                  "howto-csv-ingress_ADMIN",
+                  "ExchangeUpdate"
+                ],
+                [
+                  "howto-csv-ingress_ADMIN",
+                  "ExchangeView"
+                ]
+              ]
+            },
+            {
+              "name": "PROFILE_USER",
+              "data": [
+                [
+                  "howto-csv-ingress_ADMIN",
+                  "admin"
+                ]
+              ],
+              "mode": "append"
+            }
+          ],
+          "framework": "webcomponents",
+          "ui": {},
+          "routes": [
+            {
+              "id": "89a12278-6b1f-4150-9812-e0b388e9552a",
+              "name": "Exchange Data",
+              "layoutType": "horizontal-layout",
+              "permissions": null,
+              "tiles": [
+                {
+                  "title": "Exchange Holidays",
+                  "type": "grid-pro",
+                  "config": {
+                    "resourceName": "EXCHANGE_HOLIDAY",
+                    "permissions": {
+                      "viewRight": "ExchangeView"
+                    },
+                    "reqrep": true,
+                    "gridOptions": "\n  {\n    columnDefs: [\n     {\n          field: \"EXCHANGE_HOLIDAY_ID\",\n     },\n     {\n          field: \"ISO_MIC\",\n          hide: true,\n     },\n     {\n          field: \"HOLIDAY_DATE\",\n     },\n     {\n          field: \"HOLIDAY_TYPE\",\n     },\n     {\n          field: \"HOLIDAY_NAME\",\n     }\n],\n  }",
+                    "index": 0,
+                    "useOnlyTemplateCols": false
+                  },
+                  "componentName": "Exchange Data-ExchangeHolidays-grid",
+                  "componentType": "grid"
+                }
+              ],
+              "layoutKey": "Exchange Data_1722864326611",
+              "FDC3EventHandlersEnabled": false
+            }
+          ],
+          "appName": "howto-csv-ingress",
+          "pkgName": "howto-csv-ingress",
+          "directory": "/tmp/tmp-18-yx8dWvFLzt0l/howto-csv-ingress",
+          "appSeed": {
+            "type": "local",
+            "name": "pbc-notify-seed",
+            "date": "2024-08-05T13:25:27.169Z"
+          },
+          "rootElement": "howtocsvingress-root",
+          "localGenId": "HOWTO_CSV-INGRESS",
+          "applicationVersionWeb": "1.0.0",
+          "versions": {
+            "prerequisites": {
+              "foundationUI": "14.*",
+              "gsf": "8.*"
+            },
+            "dependencies": {
+              "pbcNotify": "1.0.39",
+              "serverDepId": "8.2.0",
+              "fileServerDepId": "8.2.0"
+            }
+          },
+          "FDC3": {
+            "includeDependencies": false,
+            "channels": []
+          },
+          "date": "Mon Aug 05 2024 13:25:27 GMT+0000 (Coordinated Universal Time)",
+          "utils": {
+            "changeCase": {}
+          },
+          "notificationEntitiesKotlin": "listOf(\"EXCHANGE_HOLIDAY\", \"EXCHANGE\", \"EXCHANGE_HOLIDAY_VIEW\")"
+        }
+      ],
+      "date": "Mon Aug 05 2024 13:25:27 GMT+0000 (Coordinated Universal Time)",
+      "utils": {
+        "changeCase": {}
+      }
+    }
+  ]
+}
