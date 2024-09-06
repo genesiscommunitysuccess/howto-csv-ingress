@@ -1,0 +1,17 @@
+CenterID,ISO MIC Code,ISOCountryCode,ExchangeName,EventYear,EventDate,EventDayOfWeek,EventName,FileType
+818,XLON,GB,London Stock Exchange,2024,20240101,Mon,New Year's Day,S
+818,XLON,GB,London Stock Exchange,2024,20240329,Fri,Good Friday,X
+818,XLON,GB,London Stock Exchange,2024,20240401,Mon,Easter Monday,S
+818,XLON,GB,London Stock Exchange,2024,20240506,Mon,Early May Bank Holiday,S
+818,XLON,GB,London Stock Exchange,2024,20240527,Mon,Late May Bank Holiday,S
+818,XLON,GB,London Stock Exchange,2024,20240826,Mon,Summer Bank Holiday,S
+818,XLON,GB,London Stock Exchange,2024,20241225,Wed,Christmas,S
+818,XLON,GB,London Stock Exchange,2024,20241226,Thu,Boxing Day,S
+818,XLON,GB,London Stock Exchange,2025,20250101,Wed,New Year's Day,S
+818,XLON,GB,London Stock Exchange,2025,20250418,Fri,Good Friday,S
+818,XLON,GB,London Stock Exchange,2025,20250421,Mon,Easter Monday,S
+818,XLON,GB,London Stock Exchange,2025,20250505,Mon,Early May Bank Holiday,S
+818,XLON,GB,London Stock Exchange,2025,20250526,Mon,Late May Bank Holiday,S
+818,XLON,GB,London Stock Exchange,2025,20250825,Mon,Summer Bank Holiday,S
+818,XLON,GB,London Stock Exchange,2025,20251225,Thu,Christmas,S
+818,XLON,GB,London Stock Exchange,2025,20251226,Fri,Boxing Day,S
