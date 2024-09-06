@@ -1,0 +1,10 @@
+<!--
+    Services defined here will define ports and hosts of processes required by the application.
+
+  * Full documentation on service definitions may be found here >> https://docs.genesis.global/docs/develop/server-capabilities/runtime-configuration/service-definition/
+
+-->
+
+<configuration>
+  <service host="localhost" name="HOWTO_CSV_INGRESS_MANAGER" port="9700"/>
+</configuration>

@@ -1,0 +1,20 @@
+<!--
+    Processes defined here will run the application.
+
+  * Full documentation on process definitions may be found here >> https://docs.genesis.global/docs/develop/server-capabilities/runtime-configuration/processes/
+
+-->
+
+<processes>
+  <process name="HOWTO_CSV_INGRESS_MANAGER">
+    <groupId>HOWTO_CSV_INGRESS</groupId>
+    <start>true</start>
+    <options>-Xmx1024m -DRedirectStreamsToLog=true</options>
+    <module>genesis-pal-requestserver,genesis-pal-datapipeline</module>
+    <package>global.genesis.requestreply.pal,global.genesis.pipeline,global.genesis.notify.api.service</package>
+    <script>howto-csv-ingress-reqrep.kts,howto-csv-ingress-cc-simple-data-pipelines.kts,howto-csv-ingress-cc-snapshot-data-pipelines.kts,howto-csv-ingress-cc-snapshot-exchange-data-pipelines.kts</script>
+    <description>Management request server and Data Pipeline Services</description>
+    <classpath>howto-csv-ingress-app*</classpath>
+    <language>pal</language>
+  </process>
+</processes>
